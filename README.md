@@ -1,8 +1,41 @@
-# Claude skills for SEO and clean writing
+# Claude Skills for Arabic Writing and SEO
 
-These are skills I use every day in Claude Code and Claude.ai, for SEO work and for writing that doesn't read like it came from a chatbot. All of them are written in English. Some are built for Arabic text, which few public skills handle well.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Works with Claude Code and Claude.ai](https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Claude.ai-8A63D2)
+![New skill most days](https://img.shields.io/badge/new%20skill-most%20days-2ea44f)
 
-I built them for my own client work, then removed client names, domains and private links before publishing. I add a new skill here most days.
+Ready-to-install skills that teach Claude how to do two jobs properly:
+
+1. **Clean up AI-sounding writing**, especially in Arabic, where most tools fall short.
+2. **Do real SEO work**: diagnose a site before touching it, find cannibalization and keyword gaps, read Search Console, and report what changed.
+
+I use these skills every day on client work. Before publishing each one, I rewrite it in English, swap client details for everyday examples, and remove anything private. One new skill goes up most days.
+
+---
+
+## Contents
+
+- [Who this is for](#who-this-is-for)
+- [The skills](#the-skills)
+- [Coming next](#coming-next)
+- [Spotlight: arabic-humanizer](#spotlight-arabic-humanizer)
+- [Install](#install)
+- [How to use a skill](#how-to-use-a-skill)
+- [How these skills are built](#how-these-skills-are-built)
+- [About me](#about-me)
+- [Feedback](#feedback)
+
+---
+
+## Who this is for
+
+- **Writers, marketers and agencies working in Arabic** whose drafts come out of ChatGPT or Claude sounding translated, stiff or obviously machine-made.
+- **SEO specialists and freelancers** who want Claude to follow a real method: diagnose first, then act, with numbers to back every recommendation.
+- **Anyone sending files to clients** who needs Word, PowerPoint and Excel files without hidden AI traces.
+
+You don't need to write code. If you can copy a folder or upload a zip file, you can use these.
+
+---
 
 ## The skills
 
@@ -10,36 +43,134 @@ I built them for my own client work, then removed client names, domains and priv
 |---|---|---|
 | [arabic-humanizer](skills/arabic-humanizer) | Cleans AI-sounding Arabic so it reads like an Arabic speaker wrote it: English idioms translated word for word, `يتم` constructions, empty openings, Latin punctuation, and MSA slipping into Egyptian. Works on pasted text and on Word, PowerPoint and Excel files edited in place. | Arabic text (MSA and Egyptian) |
 
-### arabic-humanizer: before and after
+---
+
+## Coming next
+
+The release order for the next two weeks. Each one is checked off when it goes live.
+
+- [x] [arabic-humanizer](skills/arabic-humanizer): clean AI-sounding Arabic
+- [ ] remove-ai-marks: strip hidden characters, AI tokens and metadata from files
+- [ ] seo-diagnosis: the thinking step before any SEO task (stage, bottleneck, hypothesis, priority)
+- [ ] seo-cannibalization-detector: pages competing for the same queries, and what to do with each
+- [ ] keyword-gap-analyzer: target keywords with no page on the site, grouped and ranked
+- [ ] gsc-audit: Search Console audit, period comparison and quick wins
+- [ ] weekly-seo-report: what changed this week, whether it matters, and what to do first
+- [ ] gsc-indexing-check: check indexing for a list of URLs and log the result
+- [ ] prospect-site-diagnostic: a measured site diagnosis to send a prospect before the first call
+- [ ] rank-tracking-check: read a rank tracker and flag drops and lost keywords
+- [ ] backlink-prospect-check: score backlink prospects with Semrush and Ahrefs metrics
+- [ ] seo-case-study-evidence: collect and check the SEO evidence behind a case study
+- [ ] seo-tool-evaluation: research an SEO tool end to end before you pay for it
+
+Star or watch the repo to see each one when it lands.
+
+---
+
+## Spotlight: arabic-humanizer
+
+AI models learn most of their writing from English. When they write Arabic, the English shows: idioms translated word for word, English sentence rhythm, Latin commas, and a stiff, bureaucratic tone nobody uses in real life. Arabic readers notice it within two lines.
+
+`arabic-humanizer` finds those tells and rewrites them in natural Arabic, without adding facts or changing what the text says.
+
+### Before and after
 
 **Before** (typical AI Arabic):
 
 > في عالم يتسم بالتطور المتسارع، لا يقتصر الأمر على تقديم وجبات لذيذة، بل يمتد ليشمل تجربة متكاملة. يتم تحضير جميع الأطباق يوميًا بشكل كبير من المكونات الطازجة، مما يسهم في تعزيز رضا العملاء.
+>
+> *(In a world of rapid change, it's not limited to serving delicious meals, it extends to a complete experience. The preparing of all dishes is done daily to a great extent from fresh ingredients, which contributes to enhancing customer satisfaction.)*
 
 **After:**
 
 > نحضّر جميع الأطباق يوميًا من مكونات طازجة.
+>
+> *(We prepare all the dishes daily from fresh ingredients.)*
 
 The empty opening, the "not just X, but Y" construction, the `يتم` passive, the intensifier and the "which contributes to enhancing" rider are all gone. What the text actually said stays, and so does the register: it was MSA, so it stays MSA. The skill would also ask for one real detail, such as which dish or what time the food is prepared, because that's what makes a text sound like its writer.
 
+### What it catches
+
+| Group | Examples it looks for |
+|---|---|
+| English wearing Arabic words | يلعب دورًا هامًا · في نهاية المطاف · لا يقتصر الأمر على... بل · في عالم يتسم بـ · تجدر الإشارة إلى أن |
+| Bureaucratic grammar | يتم + verbal noun · stacked verbal nouns · sentences chained with و · the same opener in every paragraph |
+| Weight with nothing inside | بشكل كبير · الحل الأمثل · نقلة نوعية · مما يسهم في تعزيز · "major companies use this" with no names |
+| Shape and punctuation | Latin `,` instead of `،` · em dashes · every paragraph the same length · bold and emoji everywhere |
+| Wrong register | سوف and tanwin inside Egyptian chat · بالتأكيد! · يسعدني أن أساعدك |
+| Chatbot leftovers | بالطبع! إليك... · أتمنى أن يكون هذا مفيدًا · حسب معلوماتي حتى |
+
+It also has rules for each kind of text (article, email, social post, WhatsApp, slide deck, spreadsheet, UI copy, speech transcript) and edits `.docx`, `.pptx` and `.xlsx` files without breaking their layout.
+
+---
+
 ## Install
 
-**Claude Code:** copy the skill's folder into `~/.claude/skills/`. For example:
+### Claude Code
+
+Install every skill in the repo:
 
 ```bash
-cp -r skills/arabic-humanizer ~/.claude/skills/
+git clone https://github.com/hendebrahim-ai/claude-skills.git
+cp -r claude-skills/skills/* ~/.claude/skills/
 ```
 
-**Claude.ai:** zip the skill's folder, then upload it in **Settings → Capabilities → Skills**.
+Or just one:
 
-Skills with a `scripts` folder need Python 3. Each skill's own file says if it needs anything else.
+```bash
+cp -r claude-skills/skills/arabic-humanizer ~/.claude/skills/
+```
+
+On Windows, the skills folder is `C:\Users\<you>\.claude\skills\`.
+
+### Claude.ai (web and desktop app)
+
+1. Download the repo: **Code → Download ZIP** at the top of this page.
+2. Open the `skills` folder and zip the one skill folder you want (for example `arabic-humanizer`).
+3. In Claude, go to **Settings → Capabilities → Skills**, click **Upload skill**, and choose that zip.
+
+### Requirements
+
+Skills with a `scripts` folder need Python 3. Each skill's own `SKILL.md` lists anything else it needs.
+
+---
+
+## How to use a skill
+
+You don't have to call a skill by name. Claude reads each skill's description and uses it when your request matches. For example:
+
+- "نقّي النص ده، شكله مكتوب بـ ChatGPT" (clean this text, it looks like ChatGPT wrote it)
+- "Humanize this Arabic email before I send it to the client."
+- "Check this PowerPoint deck. The Arabic sounds translated."
+
+To be sure a specific skill runs, name it: "Use arabic-humanizer on this post."
+
+---
+
+## How these skills are built
+
+Every skill here follows the same rules:
+
+- **No invented facts.** A skill never adds numbers, names, sources or examples that weren't in your input. If something is missing, it asks.
+- **Your meaning stays.** Wording changes. The message, the stance and the level of certainty don't.
+- **It shows before it writes.** For files, you see every change in chat first, and the original file is never overwritten.
+- **Plain English instructions.** Every skill is written in English so anyone can read and adapt it, even the ones built for Arabic.
+- **Real work, generalised.** Each one comes from client work. Client names, domains and private data are removed before publishing, and the examples are everyday ones: restaurants, bakeries, travel sites.
+
+---
+
+## About me
+
+I'm Hend Ibrahim. I trained as a doctor, and I still use the rule I learned there: diagnose before you treat. Today I work as an SEO manager and a Top Rated freelancer, and I build Claude skills and automations that let me do SEO, Arabic content and reporting work faster without cutting corners.
+
+🌐 [hendebrahim.com](https://hendebrahim.com) · 💼 [LinkedIn](https://www.linkedin.com/in/hendebrahim) · 🐙 [GitHub](https://github.com/hendebrahim-ai)
+
+---
 
 ## Feedback
 
-If a skill gets something wrong, open an issue with the input and what you expected. I read them.
-
-More from me: [hendebrahim.com](https://hendebrahim.com) · [LinkedIn](https://www.linkedin.com/in/hendebrahim)
+If a skill gets something wrong, [open an issue](https://github.com/hendebrahim-ai/claude-skills/issues) with the input you gave it and what you expected. I read every one.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE). Use, change and share these skills freely. Just keep the license file with them.
