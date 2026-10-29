@@ -4,11 +4,14 @@
 ![Works with Claude Code and Claude.ai](https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Claude.ai-8A63D2)
 ![New skill most days](https://img.shields.io/badge/new%20skill-most%20days-2ea44f)
 
-Ready-to-install skills that teach Claude how to do three jobs properly:
+Ready-to-install skills that teach your AI assistant how to do real work properly:
 
 1. **Clean up AI-sounding writing**, especially in Arabic, where most tools fall short.
 2. **Do real SEO work**: diagnose a site before touching it, find cannibalization and keyword gaps, read Search Console, and report what changed.
-3. **Run and diagnose ad accounts** on Meta and Google Ads, with numbers checked before any change (coming in November).
+3. **Run and diagnose ad accounts** on Meta and Google Ads, with numbers checked before any change.
+4. **Create content and grow on LinkedIn**: repurposing, captions in Arabic dialects, profile reviews and weekly plans.
+5. **Run a freelance business**: proposals, onboarding, call notes and monthly client reports.
+6. **Edit talking-head videos** with effects rendered on your own computer.
 
 I use these skills every day on client work. Before publishing each one, I rewrite it in English, swap client details for everyday examples, and remove anything private. One new skill goes up most days.
 
