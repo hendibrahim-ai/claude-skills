@@ -361,3 +361,8 @@ Detectors do badly on Arabic. Formal MSA is uniform by nature, so human-written 
 - Legal contracts and regulatory text
 - Code, config files and data
 - Hiding plagiarism or getting around academic integrity checks
+
+
+---
+
+Made by Hend Ibrahim · [hendebrahim.com](https://hendebrahim.com) · More skills: [github.com/hendebrahim-ai/claude-skills](https://github.com/hendebrahim-ai/claude-skills)
