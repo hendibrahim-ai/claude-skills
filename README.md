@@ -1,7 +1,7 @@
 # Claude Skills for Arabic Writing, SEO and Ads
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-![Works with Claude Code and Claude.ai](https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Claude.ai-8A63D2)
+![Works with Claude, Codex, Cursor and Gemini CLI](https://img.shields.io/badge/works%20with-Claude%20%7C%20Codex%20%7C%20Cursor%20%7C%20Gemini%20CLI-8A63D2)
 ![New skill most days](https://img.shields.io/badge/new%20skill-most%20days-2ea44f)
 
 Ready-to-install skills that teach your AI assistant how to do real work properly:
@@ -175,6 +175,18 @@ On Windows, the skills folder is `C:\Users\<you>\.claude\skills\`.
 2. Open the `skills` folder and zip the one skill folder you want (for example `arabic-humanizer`).
 3. In Claude, go to **Settings → Capabilities → Skills**, click **Upload skill**, and choose that zip.
 
+### OpenAI Codex, Cursor, Gemini CLI and other tools
+
+These skills follow the open [Agent Skills](https://agentskills.io) format, so any tool that reads `SKILL.md` folders can use them. Copy the skill's folder into that tool's skills folder:
+
+| Tool | Skills folder |
+|---|---|
+| OpenAI Codex CLI | `~/.codex/skills/` |
+| Gemini CLI | `~/.gemini/skills/` |
+| Cursor | `.cursor/skills/` in your project (Cursor also reads the Claude and Codex folders) |
+
+Folder locations can change between versions, so check your tool's docs if a skill doesn't load.
+
 ### Requirements
 
 Skills with a `scripts` folder need Python 3. Each skill's own `SKILL.md` lists anything else it needs.
@@ -183,7 +195,7 @@ Skills with a `scripts` folder need Python 3. Each skill's own `SKILL.md` lists 
 
 ## How to use a skill
 
-You don't have to call a skill by name. Claude reads each skill's description and uses it when your request matches. For example:
+You don't have to call a skill by name. Your AI assistant reads each skill's description and uses it when your request matches. For example:
 
 - "Humanize this Arabic email before I send it to the client."
 - "Check this PowerPoint deck. The Arabic sounds translated."
