@@ -74,6 +74,38 @@ The release order for the coming weeks. Each one is checked off when it goes liv
 - [ ] ads-account-operating-file: one living file per ad account, so nothing gets forgotten
 - [ ] ads-case-study-evidence: the paid-media evidence behind a case study
 
+**Then, content and LinkedIn:**
+
+- [ ] business-context-file: one file with your offer, audience and voice that every other skill reads first
+- [ ] content-repurposer: one article, video or podcast becomes a LinkedIn post, an X thread, an email and a carousel
+- [ ] youtube-to-content: a YouTube video becomes a blog post, a post and three short-video scripts
+- [ ] arabic-caption-writer: Instagram, Facebook and TikTok captions in Egyptian, Gulf or Modern Standard Arabic
+- [ ] linkedin-profile-audit: review a LinkedIn profile and rewrite the headline, About and Featured
+- [ ] linkedin-content-plan: a weekly LinkedIn plan built from your offer and your proof
+- [ ] linkedin-post-mortem: which posts worked, why, and what to stop doing
+
+**Then, running a freelance business:**
+
+- [ ] call-notes-to-actions: a call transcript becomes a summary, decisions, tasks and a follow-up email
+- [ ] monthly-client-report: your SEO or ads numbers become a short monthly client report
+- [ ] client-onboarding-pack: welcome message, intake questions, access checklist and first-week plan
+- [ ] freelance-proposal-writer: a proposal built on the client's own words in the job post
+- [ ] freelancer-profile-audit: audit an Upwork or freelance profile, from title to portfolio
+
+**Then, more SEO:**
+
+- [ ] ai-search-visibility-check: can ChatGPT, Perplexity and AI Overviews find, read and cite your site?
+- [ ] google-business-profile-audit: audit a Google Business Profile against the competitors around it
+- [ ] salla-zid-store-seo: SEO for stores built on Salla and Zid
+- [ ] content-refresh-planner: find old pages losing traffic and decide what to update first
+
+**Then, video effects for talking-head clips:**
+
+- [ ] head-pop-out: your head pops out over the top of a card
+- [ ] grid-dive: a wall of video tiles, then the camera dives into yours
+- [ ] title-orbit: your title spins in a 3D ring around your head
+- [ ] magnifying-lens: a glass lens slides over your face and follows you
+
 Star or watch the repo to see each one when it lands.
 
 ---
