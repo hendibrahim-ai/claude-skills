@@ -1,13 +1,14 @@
-# Claude Skills for Arabic Writing and SEO
+# Claude Skills for Arabic Writing, SEO and Ads
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Works with Claude Code and Claude.ai](https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Claude.ai-8A63D2)
 ![New skill most days](https://img.shields.io/badge/new%20skill-most%20days-2ea44f)
 
-Ready-to-install skills that teach Claude how to do two jobs properly:
+Ready-to-install skills that teach Claude how to do three jobs properly:
 
 1. **Clean up AI-sounding writing**, especially in Arabic, where most tools fall short.
 2. **Do real SEO work**: diagnose a site before touching it, find cannibalization and keyword gaps, read Search Console, and report what changed.
+3. **Run and diagnose ad accounts** on Meta and Google Ads, with numbers checked before any change (coming in November).
 
 I use these skills every day on client work. Before publishing each one, I rewrite it in English, swap client details for everyday examples, and remove anything private. One new skill goes up most days.
 
@@ -47,7 +48,7 @@ You don't need to write code. If you can copy a folder or upload a zip file, you
 
 ## Coming next
 
-The release order for the next two weeks. Each one is checked off when it goes live.
+The release order for the coming weeks. Each one is checked off when it goes live.
 
 - [x] [arabic-humanizer](skills/arabic-humanizer): clean AI-sounding Arabic
 - [ ] remove-ai-marks: strip hidden characters, AI tokens and metadata from files
@@ -62,6 +63,16 @@ The release order for the next two weeks. Each one is checked off when it goes l
 - [ ] backlink-prospect-check: score backlink prospects with Semrush and Ahrefs metrics
 - [ ] seo-case-study-evidence: collect and check the SEO evidence behind a case study
 - [ ] seo-tool-evaluation: research an SEO tool end to end before you pay for it
+
+**Then, ads:**
+
+- [ ] meta-ads-campaign-playbook: plan, build and fix Meta campaigns, symptom by symptom
+- [ ] google-ads-account-diagnostics: a full Google Ads diagnosis that checks tracking before anything else
+- [ ] ads-complaint-reply: answer "the campaign isn't working" with the real numbers
+- [ ] meta-lead-reconciliation: Meta says 3 leads, your CRM says 11; find out why
+- [ ] meta-ads-placement-review: see which placements waste budget
+- [ ] ads-account-operating-file: one living file per ad account, so nothing gets forgotten
+- [ ] ads-case-study-evidence: the paid-media evidence behind a case study
 
 Star or watch the repo to see each one when it lands.
 
