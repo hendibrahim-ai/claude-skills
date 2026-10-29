@@ -365,4 +365,4 @@ Detectors do badly on Arabic. Formal MSA is uniform by nature, so human-written 
 
 ---
 
-Made by Hend Ibrahim · [hendebrahim.com](https://hendebrahim.com) · More skills: [github.com/hendebrahim-ai/claude-skills](https://github.com/hendebrahim-ai/claude-skills)
+Made by Hend Ibrahim · [hendebrahim.com](https://hendebrahim.com) · More skills: [github.com/hendibrahim-ai/claude-skills](https://github.com/hendibrahim-ai/claude-skills)

@@ -122,7 +122,7 @@ It also has rules for each kind of text (article, email, social post, WhatsApp, 
 Install every skill in the repo:
 
 ```bash
-git clone https://github.com/hendebrahim-ai/claude-skills.git
+git clone https://github.com/hendibrahim-ai/claude-skills.git
 cp -r claude-skills/skills/* ~/.claude/skills/
 ```
 
@@ -174,13 +174,13 @@ Every skill here follows the same rules:
 
 I'm Hend Ibrahim. I trained as a doctor, and I still use the rule I learned there: diagnose before you treat. Today I work as an SEO manager and a Top Rated freelancer, and I build Claude skills and automations that let me do SEO, Arabic content and reporting work faster without cutting corners.
 
-🌐 [hendebrahim.com](https://hendebrahim.com) · 💼 [LinkedIn](https://www.linkedin.com/in/hendebrahim) · 🐙 [GitHub](https://github.com/hendebrahim-ai)
+🌐 [hendebrahim.com](https://hendebrahim.com) · 💼 [LinkedIn](https://www.linkedin.com/in/hendebrahim) · 🐙 [GitHub](https://github.com/hendibrahim-ai)
 
 ---
 
 ## Feedback
 
-If a skill gets something wrong, [open an issue](https://github.com/hendebrahim-ai/claude-skills/issues) with the input you gave it and what you expected. I read every one.
+If a skill gets something wrong, [open an issue](https://github.com/hendibrahim-ai/claude-skills/issues) with the input you gave it and what you expected. I read every one.
 
 ## License
 
