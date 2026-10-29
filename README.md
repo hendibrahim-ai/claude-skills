@@ -60,6 +60,7 @@ The release order for the coming weeks. Each one is checked off when it goes liv
 - [ ] keyword-gap-analyzer: target keywords with no page on the site, grouped and ranked
 - [ ] gsc-audit: Search Console audit, period comparison and quick wins
 - [ ] weekly-seo-report: what changed this week, whether it matters, and what to do first
+- [ ] daily-search-console-check: a 5-minute morning check of Search Console, with three lines on what to do today
 - [ ] gsc-indexing-check: check indexing for a list of URLs and log the result
 - [ ] prospect-site-diagnostic: a measured site diagnosis to send a prospect before the first call
 - [ ] rank-tracking-check: read a rank tracker and flag drops and lost keywords
