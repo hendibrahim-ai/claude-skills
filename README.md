@@ -139,9 +139,9 @@ Skills with a `scripts` folder need Python 3. Each skill's own `SKILL.md` lists 
 
 You don't have to call a skill by name. Claude reads each skill's description and uses it when your request matches. For example:
 
-- "نقّي النص ده، شكله مكتوب بـ ChatGPT" (clean this text, it looks like ChatGPT wrote it)
 - "Humanize this Arabic email before I send it to the client."
 - "Check this PowerPoint deck. The Arabic sounds translated."
+- In Arabic, too: "نقّي النص ده، شكله مكتوب بـ ChatGPT" (clean this text, it looks like ChatGPT wrote it)
 
 To be sure a specific skill runs, name it: "Use arabic-humanizer on this post."
 
