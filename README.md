@@ -46,6 +46,7 @@ You don't need to write code. If you can copy a folder or upload a zip file, you
 | Skill | What it does | Works on |
 |---|---|---|
 | [arabic-humanizer](skills/arabic-humanizer) | Cleans AI-sounding Arabic so it reads like an Arabic speaker wrote it: English idioms translated word for word, `يتم` constructions, empty openings, Latin punctuation, and MSA slipping into Egyptian. Works on pasted text and on Word, PowerPoint and Excel files edited in place. | Arabic text (MSA and Egyptian) |
+| [remove-ai-marks](skills/remove-ai-marks) | Removes the mechanical traces a model leaves in a file, such as hidden Unicode characters, `oaicite` tokens, chatbot sign-offs, unfilled `[Your Name]` placeholders, and C2PA/EXIF/author metadata in docx, xlsx, pptx, pdf, png, jpg and webp. It changes no wording. Pairs with `arabic-humanizer`: that one fixes the writing, this one cleans the file. Image cleaning uses Pillow and PDF cleaning uses pikepdf or qpdf. | English and Arabic files |
 
 ---
 
@@ -54,7 +55,7 @@ You don't need to write code. If you can copy a folder or upload a zip file, you
 The release order for the coming weeks. Each one is checked off when it goes live.
 
 - [x] [arabic-humanizer](skills/arabic-humanizer): clean AI-sounding Arabic
-- [ ] remove-ai-marks: strip hidden characters, AI tokens and metadata from files
+- [x] [remove-ai-marks](skills/remove-ai-marks): strip hidden characters, AI tokens and metadata from files
 - [ ] seo-diagnosis: the thinking step before any SEO task (stage, bottleneck, hypothesis, priority)
 - [ ] seo-cannibalization-detector: pages competing for the same queries, and what to do with each
 - [ ] keyword-gap-analyzer: target keywords with no page on the site, grouped and ranked
