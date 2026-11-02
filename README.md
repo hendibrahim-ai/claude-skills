@@ -49,6 +49,7 @@ You don't need to write code. If you can copy a folder or upload a zip file, you
 | [remove-ai-marks](skills/remove-ai-marks) | Removes the mechanical traces a model leaves in a file, such as hidden Unicode characters, `oaicite` tokens, chatbot sign-offs, unfilled `[Your Name]` placeholders, and C2PA/EXIF/author metadata in docx, xlsx, pptx, pdf, png, jpg and webp. It changes no wording. Pairs with `arabic-humanizer`: that one fixes the writing, this one cleans the file. Image cleaning uses Pillow and PDF cleaning uses pikepdf or qpdf. | English and Arabic files |
 | [seo-cannibalization-detector](skills/seo-cannibalization-detector) | Finds pages on the same site competing for the same queries, using Search Console data, the live results page and search intent, and ends with a decision for each case: merge, split, redirect, canonical or retarget. | Any site |
 | [keyword-gap-analyzer](skills/keyword-gap-analyzer) | Checks a target keyword list against what a site has published, groups the gaps into clusters, and ranks the opportunities. | Any site |
+| [prospect-site-diagnostic](skills/prospect-site-diagnostic) | Turns a prospect's website link into a short, measured diagnosis to send before the first call: site structure, a sample of pages, search demand, results in the prospect's country, ads and indexing. | Any site |
 
 ---
 
@@ -65,7 +66,7 @@ The release order for the coming weeks. Each one is checked off when it goes liv
 - [ ] weekly-seo-report: what changed this week, whether it matters, and what to do first
 - [ ] daily-search-console-check: a 5-minute morning check of Search Console, with three lines on what to do today
 - [ ] gsc-indexing-check: check indexing for a list of URLs and log the result
-- [ ] prospect-site-diagnostic: a measured site diagnosis to send a prospect before the first call
+- [x] [prospect-site-diagnostic](skills/prospect-site-diagnostic): a measured site diagnosis to send a prospect before the first call
 - [ ] rank-tracking-check: read a rank tracker and flag drops and lost keywords
 - [ ] backlink-prospect-check: score backlink prospects with Semrush and Ahrefs metrics
 - [ ] seo-case-study-evidence: collect and check the SEO evidence behind a case study
