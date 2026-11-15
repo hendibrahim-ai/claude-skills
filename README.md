@@ -50,6 +50,7 @@ You don't need to write code. If you can copy a folder or upload a zip file, you
 | [seo-cannibalization-detector](skills/seo-cannibalization-detector) | Finds pages on the same site competing for the same queries, using Search Console data, the live results page and search intent, and ends with a decision for each case: merge, split, redirect, canonical or retarget. | Any site |
 | [keyword-gap-analyzer](skills/keyword-gap-analyzer) | Checks a target keyword list against what a site has published, groups the gaps into clusters, and ranks the opportunities. | Any site |
 | [prospect-site-diagnostic](skills/prospect-site-diagnostic) | Turns a prospect's website link into a short, measured diagnosis to send before the first call: site structure, a sample of pages, search demand, results in the prospect's country, ads and indexing. | Any site |
+| [chatgpt-business-profile-claim](skills/chatgpt-business-profile-claim) | Gets a business onto ChatGPT the right way through Businesses in ChatGPT (Business Hub): picks the path (claim, create, dispute, locked or wait), prepares the owning account, verification method and profile copy before anyone clicks Claim, writes the owner's instructions and the DNS TXT note, then reads the insights every month. The owner claims; the skill never accepts terms or enters identity data. | Any business on ChatGPT |
 
 ---
 
