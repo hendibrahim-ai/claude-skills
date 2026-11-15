@@ -72,6 +72,7 @@ The release order for the coming weeks. Each one is checked off when it goes liv
 - [ ] backlink-prospect-check: score backlink prospects with Semrush and Ahrefs metrics
 - [ ] seo-case-study-evidence: collect and check the SEO evidence behind a case study
 - [ ] seo-tool-evaluation: research an SEO tool end to end before you pay for it
+- [x] [chatgpt-business-profile-claim](skills/chatgpt-business-profile-claim): claim, verify and set up a business profile in ChatGPT without locking it to the wrong account
 
 **Then, ads:**
 
