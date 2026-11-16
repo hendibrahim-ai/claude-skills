@@ -54,6 +54,8 @@ Trading, CFDs, forex, lending, health and similar categories can be declined or 
 
 Search Business Hub (chatgpt.com/business-hub) by the name customers know, and check the address under each result.
 
+**A listing does not need a Google Business Profile.** ChatGPT builds listings from other sources across the web, so a business with no Google profile can still be listed. Try every name it is known by, including former names and brand names, before you decide it is missing and Create one.
+
 **Search results are biased to the searcher's location.** From one country, searching for a business in another country usually returns only nearby businesses, even with the other city typed in. A missing result when you search from abroad is not proof the listing does not exist. The owner, or someone in the business's country, should run the search.
 
 ### 5. Read the status, which decides the path
@@ -102,7 +104,7 @@ Write a short numbered message for the owner, based on the path.
 4. Select Get started, check the account shown under "You can manage this profile", then select Continue. This accepts OpenAI's terms.
 5. Choose the verification method we prepared and complete it.
 6. Wait for OpenAI's review email. While the claim is under review you can cancel it (Cancel claim). OpenAI publishes no timeline.
-7. After approval, complete Persona: Verify with Persona, then Continue to Persona. If you skipped it, go to the Business tab, open the profile and select Complete verification with Persona. Review usually takes a few days. The blue check appears when Persona approves, not when the claim is approved.
+7. After approval, complete Persona: Verify with Persona, then Continue to Persona. If you skipped it, go to the Business tab, open the profile and select Complete verification with Persona. Review usually takes a few days. The blue check appears when Persona approves, not when the claim is approved. Until then the profile shows in the dashboard but its details cannot be edited: ChatGPT asks for the government-issued ID first.
 8. Add us from Business Hub, using our own ChatGPT account.
 
 ### Create path (online business)
