@@ -51,6 +51,7 @@ You don't need to write code. If you can copy a folder or upload a zip file, you
 | [keyword-gap-analyzer](skills/keyword-gap-analyzer) | Checks a target keyword list against what a site has published, groups the gaps into clusters, and ranks the opportunities. | Any site |
 | [prospect-site-diagnostic](skills/prospect-site-diagnostic) | Turns a prospect's website link into a short, measured diagnosis to send before the first call: site structure, a sample of pages, search demand, results in the prospect's country, ads and indexing. | Any site |
 | [chatgpt-business-profile-claim](skills/chatgpt-business-profile-claim) | Gets a business onto ChatGPT the right way through Businesses in ChatGPT (Business Hub): picks the path (claim, create, dispute, locked or wait), prepares the owning account, verification method and profile copy before anyone clicks Claim, writes the owner's instructions and the DNS TXT note, then reads the insights every month. The owner claims; the skill never accepts terms or enters identity data. | Any business on ChatGPT |
+| [seo-diagnosis](skills/seo-diagnosis) | The thinking step before any SEO task: works out the site's stage, starts from the business, finds the bottleneck, builds a hypothesis, then sets the priority and the baseline to measure against. The other SEO skills in this repo plug into it. | Any site |
 
 ---
 
@@ -60,7 +61,7 @@ The release order for the coming weeks. Each one is checked off when it goes liv
 
 - [x] [arabic-humanizer](skills/arabic-humanizer): clean AI-sounding Arabic
 - [x] [remove-ai-marks](skills/remove-ai-marks): strip hidden characters, AI tokens and metadata from files
-- [ ] seo-diagnosis: the thinking step before any SEO task (stage, bottleneck, hypothesis, priority)
+- [x] [seo-diagnosis](skills/seo-diagnosis): the thinking step before any SEO task (stage, bottleneck, hypothesis, priority)
 - [x] [seo-cannibalization-detector](skills/seo-cannibalization-detector): pages competing for the same queries, and what to do with each
 - [x] [keyword-gap-analyzer](skills/keyword-gap-analyzer): target keywords with no page on the site, grouped and ranked
 - [ ] gsc-audit: Search Console audit, period comparison and quick wins
